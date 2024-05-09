@@ -1,30 +1,26 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension with React & Webpack",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
-  "options_page": "options.html",
-  "background": { "service_worker": "background.bundle.js" },
+  "name": "__MSG_extName__",
+  "description": "On windows, using alt + tab to switch between windows would cause youtube video unresponsive to space (normally it would toggle play and pause). Also pressing tab alone would cause this issue. Though it's supposed for accessibility purpose. This extension makes youtube page to always respond to space regardless of what state it is.",
+  "permissions": ["storage"],
+  "default_locale": "zh_TW",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
-  },
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
   },
   "icons": {
     "128": "icon-128.png"
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "matches": ["*://*.youtube.com/*"],
       "js": ["contentScript.bundle.js"],
-      "css": ["content.styles.css"]
+      "run_at": "document_end"
     }
   ],
-  "devtools_page": "devtools.html",
   "web_accessible_resources": [
     {
-      "resources": ["content.styles.css", "icon-128.png", "icon-34.png"],
+      "resources": ["icon-128.png", "icon-34.png"],
       "matches": []
     }
   ]

@@ -1,0 +1,34 @@
+{
+    "Delay": {
+        "message": "Delay",
+        "desc": "delay"
+    },
+    "delay": {
+        "message": "delay",
+        "desc": "delay"
+    },
+    "contact_author": {
+        "message": "contact_author",
+        "desc": "contact author"
+    },
+    "Contact_author": {
+        "message": "Contact_author",
+        "desc": "contact author"
+    },
+    "functionExplain": {
+        "message": "This extension enables space to control youtube videos by waiting for a short period of time after pressing space and see if it works, change the waiting time to adjust this behavior!",
+        "desc": "This extension enables space to control youtube videos by waiting for a short period of time after pressing space and see if it works, change the waiting time to adjust this behavior!"
+    },
+    "ms": {
+        "message": "ms",
+        "desc": "ms"
+    },
+    "Setting": {
+        "message": "Setting",
+        "desc": "Setting"
+    },
+    "extName": {
+        "message": "Youtube space enabler",
+        "desc": "extName"
+    }
+}
