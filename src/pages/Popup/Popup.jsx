@@ -49,7 +49,7 @@ const Popup = () => {
       <div className="row header">
         <div>{m`Setting`}</div>
         <div>
-          <a title={m`contact_author`}>
+          <a target="_blank" href="https://github.com/shironeko1337/youtube_space_ext" title={m`contact_author`}>
             <GithubIcon />
           </a>
         </div>
