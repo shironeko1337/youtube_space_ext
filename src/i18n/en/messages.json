@@ -7,12 +7,12 @@
         "message": "delay",
         "desc": "delay"
     },
-    "contact_author": {
-        "message": "contact_author",
-        "desc": "contact author"
-    },
     "Contact_author": {
         "message": "Contact_author",
+        "desc": "contact author"
+    },
+    "contact_author": {
+        "message": "contact_author",
         "desc": "contact author"
     },
     "functionExplain": {
@@ -30,5 +30,9 @@
     "extName": {
         "message": "Youtube space enabler",
         "desc": "extName"
+    },
+    "extDesc": {
+        "message": "Makes youtube video to always respond to space to toggled between play and pause.",
+        "desc": "extDesc"
     }
 }

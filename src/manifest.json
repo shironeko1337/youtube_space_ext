@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "description": "On windows, using alt + tab to switch between windows would cause youtube video unresponsive to space (normally it would toggle play and pause). Also pressing tab alone would cause this issue. Though it's supposed for accessibility purpose. This extension makes youtube page to always respond to space regardless of what state it is.",
+  "description": "__MSG_extDesc__",
   "permissions": ["storage"],
-  "default_locale": "zh_TW",
+  "default_locale": "en",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"

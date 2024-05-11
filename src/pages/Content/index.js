@@ -1,3 +1,5 @@
+import {DefaultDelay} from '../constants';
+
 document.addEventListener('keydown', async (e) => {
   const activeEle = document.activeElement;
   const videoEl = document.querySelector('ytd-player:not(ytd-video-preview ytd-player) video');
@@ -15,12 +17,12 @@ document.addEventListener('keydown', async (e) => {
     if (e.code === 'Space') {
       // compare the state, if no change then toggles play state
       const curState = videoEl.paused;
-      const { delay } = (await chrome.storage.local.get('delay')) || { delay: 200 };
+      const { delay } = await chrome.storage.local.get('delay');
       setTimeout(() => {
         if (videoEl.paused === curState) {
           playButton.click();
         }
-      }, delay);
+      }, delay || DefaultDelay);
     }
   }
 })

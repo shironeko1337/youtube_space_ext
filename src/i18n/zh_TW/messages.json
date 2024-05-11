@@ -7,11 +7,11 @@
         "message": "\u5ef6\u9072",
         "desc": "delay"
     },
-    "contact_author": {
+    "Contact_author": {
         "message": "\u806f\u7e6b\u4f5c\u8005",
         "desc": "contact author"
     },
-    "Contact_author": {
+    "contact_author": {
         "message": "\u806f\u7e6b\u4f5c\u8005",
         "desc": "contact author"
     },
@@ -30,5 +30,9 @@
     "extName": {
         "message": "Youtube \u4fdd\u6301\u7a7a\u683c\u529f\u80fd",
         "desc": "extName"
+    },
+    "extDesc": {
+        "message": "\u4f7fYoutube\u8996\u983b\u59cb\u7d42\u53ef\u4ee5\u901a\u904e\u7a7a\u683c\u9375\u5207\u63db\u64ad\u653e\u505c\u6b62",
+        "desc": "extDesc"
     }
 }

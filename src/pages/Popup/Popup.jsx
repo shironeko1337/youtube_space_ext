@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Popup.css';
+import {DefaultDelay} from '../constants';
 
 function m(strings, ...values) {
   return chrome.i18n.getMessage(strings[0]);
@@ -23,8 +24,6 @@ const GithubIcon = () => {
     </svg>
   );
 };
-
-const DefaultDelay = 200;
 
 const Popup = () => {
   const [delay, setDelay] = useState(DefaultDelay);
